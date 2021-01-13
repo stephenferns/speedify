@@ -1,0 +1,36 @@
+extends ../layout
+
+block content
+    extends ../layout
+  
+block content
+  .misc
+    h1 Contact us
+    h5 For technical and billing assistance 
+      a(href="/myskywave") click here >
+    hr
+    form#contact-us
+      br
+      .form-row
+        .col-md-12 
+          label(for="validname") Full Name 
+          Input#validname.form-control(type='text' placeholder='Full Name' required)
+          #usernameFeedback.valid-feedback Looks good ! 
+        .col-md-12 
+          label(for="validMobile") Mobile No
+          Input#validMobile.form-control(type='number' placeholder='Mobile No' minlength="10" maxlength="10" required)
+          #mobileFeedback.invalid-feedback Need valid mobile no !
+        .col-md-12 
+          label(for="validEmail") Email
+          Input#validEmail.form-control(type='email' placeholder='Email' required)
+          #emailFeedback.invalid-feedback Need valid email  !  
+        .col-md-12 
+          label(for="validBrief") Brief
+          Input#validBrief.form-control(type='text' placeholder='Message' required)
+          #briefFeedback.invalid-feedback Let us know somethinng ! 
+      br
+      #contact-us-action.form-row
+        .col-md-12
+          button.btn.btn-primary(onClick='alert()') Send message
+
+    hr

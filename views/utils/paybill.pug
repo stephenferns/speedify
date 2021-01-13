@@ -1,0 +1,23 @@
+extends ../layout
+
+block content
+  .plans.light
+    h1 Pay bill
+    hr
+    form#pay-bill(name="pay-bill" action="")
+      br
+      .form-row
+        .col-md-12 
+          label(for="validUsername") Username / Registered Mobile No
+          input(type=text required="" onkeypress="validateusername(event)")#validUsername.form-control
+           
+        .col-md-12 
+          label(for="validAmount") Amount
+          input(type=text onkeypress="validateAmt(event)" required="")#validAmount.form-control
+          
+      br
+      #pay-bill-action.form-row
+        .col-md-12
+          button.btn.btn-primary(onClick="alert()") Pay
+
+    hr
