@@ -4,14 +4,14 @@
   margin-top: 60px;
 }
 .light {
-  background-color: #36c2f3;
+  background-color: #25b396;
   color: white;
 }
 .dark {
   padding-top: 35px;
   height: 400px;
   min-width: 350px;
-  background-color: #5ba56e;
+  background-color: #f1a104;
   color: white;
 }
 .highlight {
@@ -46,12 +46,12 @@
 .plans h1 {
   font-size: 3em;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 .plans h2 {
   font-size: 2em;
   font-weight: lighter;
-  color: yellow;
+  color: #033035;
 }
 
 a {
@@ -69,7 +69,7 @@ a {
   font-size: small;
   font-weight: bold;
   margin-right: 10px;
-  color: #2c806f;
+  color: #034c2c;
 }
 
 .navbar {
