@@ -199,6 +199,46 @@ a {
   margin: auto;
 }
 
+/* myspeedyfi */
+.mainbanner {
+  background-image: url("");
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 500px;
+  display: block;
+}
+.mainbanner h1 {
+  color: white;
+}
+#onMobiledisplay h2 {
+  display: none;
+}
+
+.container .row .col-lg {
+  text-align: center;
+  border-left: 0.01rem;
+  border-right: 0.01rem;
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-color: #d3d3d3;
+  border-right-color: #d3d3d3;
+}
+
+.container .row .col-lg i {
+  font-size: 48px;
+}
+.container .row .col-lg a {
+  text-decoration: none;
+}
+.container .row .col-lg .link-detail {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  cursor: pointer;
+}
+
 @media only screen and (max-width: 700px) {
   footer h5 {
     font-size: 1.25em;
