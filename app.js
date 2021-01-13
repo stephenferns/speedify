@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var mySpeedifyRouter = require('./routes/mySpeedify');
+var mySpeedyfiRouter = require('./routes/mySpeedify');
 var miscRouter = require('./routes/misc');
 var utilitiesRouter = require('./routes/utilities');
 
@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/mySpeedify', mySpeedifyRouter);
+app.use('/mySpeedyfi', mySpeedyfiRouter);
 app.use('/us', miscRouter);
 app.use('/utils', utilitiesRouter);
 
